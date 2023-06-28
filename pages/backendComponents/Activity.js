@@ -7,7 +7,7 @@ function Activity(props) {
         let config = {
             method: 'get',
             maxBodyLength: Infinity,
-            url: 'https://boredapi.com/api/acMvity'
+            url: 'https://www.boredapi.com/api/activity'
           };
           
           axios.request(config)
