@@ -1,6 +1,6 @@
 /* Frontend part begin */
 .app {
-    width: 312px;
+    max-width: 312px;
     border-radius: 28px;
     background: var(--m-3-sys-light-surface-container-high, #ECE6F0);
     margin: auto;
@@ -125,6 +125,13 @@
     letter-spacing: 0.1px;
 
     cursor: pointer;
+}
+.actionButton:hover {
+    background: var(--m-3-sys-light-surface-container-high, #DCD6E0);
+}
+.actionButton:active {
+    background-color: var(--m-3-sys-light-primary, #6750A4);
+    color: white
 }
 /* Frontend part end */
 
