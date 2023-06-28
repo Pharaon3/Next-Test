@@ -2,6 +2,7 @@
     width: 312px;
     border-radius: 28px;
     background: var(--m-3-sys-light-surface-container-high, #ECE6F0);
+    margin: auto;
 }
 .heading {
     padding: 28px;
@@ -106,10 +107,21 @@
 }
 .actionButton {
     display: flex;
-    height: 40px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 8px;
     border-radius: 100px;
+    padding: 10px 12px;
+
+    color: var(--m-3-sys-light-primary, #6750A4);
+    text-align: center;
+    /* M3/label/large */
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+
+    cursor: pointer;
 }
