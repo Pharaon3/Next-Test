@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useRouter } from 'next/router';
 
 function BackendButton(props) {
     const router = useRouter();
-    const axios = require('axios');
     const backendButtonClicked = () => {
         console.log('"' + props.title + '" Button Clicked!');
         router.push(props.route);
