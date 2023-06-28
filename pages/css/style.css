@@ -156,4 +156,15 @@
 
     cursor: pointer;
 }
+.backend-textpage {
+    background: var(--m-3-sys-light-surface-container-high, #ECE6F0);
+    padding: 20px;
+    color: var(--m-3-sys-light-on-surface-variant, #49454F);
+
+    /* M3/body/medium */
+    font-size: 14px;
+    font-family: Roboto;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+}
 /* Backend part end */
