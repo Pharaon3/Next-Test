@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 
-function ActionButton(props) {
-    const actionButtonClicked = () => {
+function BackendButton(props) {
+    const backendButtonClicked = () => {
         console.log('"' + props.title + '" Button Clicked!');
     }
     return (
-        <div className="actionButton" onClick={actionButtonClicked}>
+        <div className="backendButton" onClick={backendButtonClicked}>
             {props.title}
         </div>
     )
 }
 
-export default ActionButton;
+export default BackendButton;
