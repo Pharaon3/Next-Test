@@ -146,8 +146,7 @@
     margin: auto;
 }
 .backendButton {
-    max-width: 140px;
-    width: 100%;
+    width: 140px;
     height: 140px;
     display: flex;
     justify-content: center;
@@ -175,5 +174,16 @@
     font-family: Roboto;
     line-height: 20px;
     letter-spacing: 0.25px;
+}
+@media screen and (max-width: 420px) {
+    .backendButton {
+        width: 100%;
+    }
+    .backend-app {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 40px;
+        margin: auto;
+    }
 }
 /* Backend part end */
